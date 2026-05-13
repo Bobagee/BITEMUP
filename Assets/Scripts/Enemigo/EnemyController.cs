@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyController: MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public int vida = 3;
 
@@ -12,7 +12,12 @@ public class EnemyController: MonoBehaviour
 
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            Morir();
         }
+    }
+
+    void Morir()
+    {
+        Destroy(gameObject);
     }
 }

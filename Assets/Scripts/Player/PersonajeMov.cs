@@ -40,7 +40,7 @@ public class PersonajeMov : MonoBehaviour
     //camarah
     public Camera camara;
 
-    public GameObject hitbox;
+    public HitboxPlayer hitbox;
 
     void Start()
     {
@@ -270,13 +270,12 @@ public class PersonajeMov : MonoBehaviour
 
     IEnumerator ActivarHitbox()
     {
-        hitbox.SetActive(true);
+        hitbox.Activar();
 
         yield return new WaitForSeconds(0.2f);
 
-        hitbox.SetActive(false);
+        hitbox.Desactivar();
     }
-
 
 
     void Update()

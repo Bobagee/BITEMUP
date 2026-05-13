@@ -4,23 +4,54 @@ public class DangerZone : MonoBehaviour
 {
     public Camarahhh camara;
 
+    public GameObject enemyPrefab;
+
+    public Transform[] spawnPoints;
+
+    public int cantidadEnemigos = 3;
+
+    private bool activada;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Entro algo " + other.name);
-        Debug.Log("Tag detectado: " + other.tag);
+        if (activada)
+        {
+            return;
+        }
 
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Entro el player");
+            activada = true;
 
             if (camara != null)
             {
                 camara.BloquearCamara();
-                Debug.Log("Se bloqueo la camara");
             }
-            else
+
+            SpawnEnemigos(other.transform);
+        }
+    }
+
+    void SpawnEnemigos(Transform player)
+    {
+        for (int i = 0; i < cantidadEnemigos; i++)
+        {
+            Transform punto = spawnPoints[i];
+
+            GameObject enemigo =
+                Instantiate(
+                    enemyPrefab,
+                    punto.position,
+                    Quaternion.identity
+                );
+
+            EnemyMovement movimiento =
+                enemigo.GetComponent<EnemyMovement>();
+
+            if (movimiento != null)
             {
-                Debug.LogWarning("No asignaste la camara en DangerZone");
+                movimiento.player = player;
+                movimiento.ActivarEnemigo();
             }
         }
     }
