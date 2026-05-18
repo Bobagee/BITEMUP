@@ -1,18 +1,41 @@
 using UnityEngine;
 
-public class EnemyController: MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public int vida = 3;
+
+    public bool stuneado;
+    public float tiempoStun = 0.2f;
 
     public void RecibirGolpe(int dano)
     {
         vida -= dano;
 
-        Debug.Log("Vida restante: " + vida);
+        AplicarStun(tiempoStun);
+
+        Debug.Log("Vida enemigo: " + vida);
 
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            Morir();
         }
+    }
+
+    public void AplicarStun(float duracion)
+    {
+        stuneado = true;
+
+        CancelInvoke("QuitarStun");
+        Invoke("QuitarStun", duracion);
+    }
+
+    void QuitarStun()
+    {
+        stuneado = false;
+    }
+
+    void Morir()
+    {
+        Destroy(gameObject);
     }
 }
