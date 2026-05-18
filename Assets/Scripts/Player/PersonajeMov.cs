@@ -4,6 +4,8 @@ using System.Collections;
 public class PersonajeMov : MonoBehaviour
 {
 
+    private PlayerHealth playerHealth;
+
     public float speed_char = 5f;
     public bool ground_attack;
     public bool air_attack;
@@ -51,10 +53,15 @@ public class PersonajeMov : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         bloqueo = GetComponent<Bloqueo>();
         ypos_piso = transform.position.y;
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     public void Movimiento()
     {
+        if (playerHealth != null && playerHealth.stuneado)
+        {
+            return;
+        }
         float actual_speed;
 
         if (corriendo)
@@ -215,6 +222,10 @@ public class PersonajeMov : MonoBehaviour
 
     public void Ataque()
     {
+        if (playerHealth != null && playerHealth.stuneado)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.J))
         {
             if (!saltando && inFloor)
@@ -283,6 +294,10 @@ public class PersonajeMov : MonoBehaviour
 
     public void Bloquear()
     {
+        if (playerHealth != null && playerHealth.stuneado)
+        {
+            return;
+        }
         if (bloqueo == null)
         {
             return;
