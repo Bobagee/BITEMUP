@@ -6,12 +6,39 @@ public class EnemyMovement : MonoBehaviour
 
     public bool activo;
 
-    public float velocidad = 2f;
-    public float distanciaDetenerse = 1.2f;
+    public float velocidad = 2.3f;
+    public float distanciaDetenerse = 1.15f;
+
+    void Start()
+    {
+        if (player == null)
+        {
+            GameObject objPlayer = GameObject.FindGameObjectWithTag("Player");
+
+            if (objPlayer != null)
+            {
+                player = objPlayer.transform;
+            }
+        }
+    }
 
     void Update()
     {
         if (!activo)
+        {
+            return;
+        }
+
+        EnemyController controller = GetComponent<EnemyController>();
+
+        if (controller != null && controller.stuneado)
+        {
+            return;
+        }
+
+        Bloqueo bloqueo = GetComponent<Bloqueo>();
+
+        if (bloqueo != null && bloqueo.EstaBloqueando())
         {
             return;
         }
@@ -39,25 +66,21 @@ public class EnemyMovement : MonoBehaviour
         if (distancia > distanciaDetenerse)
         {
             Vector2 direccion =
-                (
-                    player.position -
-                    transform.position
-                ).normalized;
+                player.position - transform.position;
+
+            direccion = direccion.normalized;
 
             transform.position +=
                 (Vector3)(direccion * velocidad * Time.deltaTime);
 
-            // mirar al jugador
             if (direccion.x > 0)
             {
-                transform.rotation =
-                    Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
             }
 
             if (direccion.x < 0)
             {
-                transform.rotation =
-                    Quaternion.Euler(0, 180, 0);
+                transform.rotation = Quaternion.Euler(0, 180, 0);
             }
         }
     }

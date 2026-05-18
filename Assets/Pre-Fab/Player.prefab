@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4215344542363955691}
   - component: {fileID: 5564492100249229406}
   - component: {fileID: 838922780399626276}
-  - component: {fileID: 7669357914693664024}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -117,6 +116,8 @@ MonoBehaviour:
   altura_salto: 5
   potencia_salto: 8
   caida: 10
+  golpeAereoFuerte: 0
+  fuerzaCaidaAtaqueFuerte: 18
   speed_run: 10
   doubleTapTime: 0.3
   ultimoD: 0
@@ -124,9 +125,11 @@ MonoBehaviour:
   corriendo: 0
   sprite: {fileID: 0}
   delay: 0
-  zonaMovimiento: {fileID: 0}
   camara: {fileID: 0}
+  zonaMovimiento: {fileID: 0}
   hitbox: {fileID: 2812657822434858801}
+  bloqueo: {fileID: 0}
+  hitboxAereaFuerte: {fileID: 0}
 --- !u!61 &5564492100249229406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,18 +203,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7669357914693664024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208147458176706454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa03fab31e94b5c4daef6d4f44b87ec0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SortingY
 --- !u!1 &1781088156606897095
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +296,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HitboxPlayer
   dano: 1
+  danoFuerte: 3
+  golpeFuerte: 0
 --- !u!212 &1853110094533890526
 SpriteRenderer:
   serializedVersion: 2

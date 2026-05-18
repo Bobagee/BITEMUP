@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
-using static UnityEngine.Rendering.DebugUI;
 
 public class PersonajeMov : MonoBehaviour
 {
+
     public float speed_char = 5f;
     public bool ground_attack;
     public bool air_attack;
@@ -20,6 +20,10 @@ public class PersonajeMov : MonoBehaviour
     public float potencia_salto = 8f;
     public float caida = 10f;
 
+    // ATAQUE AEREO FUERTE
+    public bool golpeAereoFuerte;
+    public float fuerzaCaidaAtaqueFuerte = 18f;
+
     // RUN
     public float speed_run = 10f;
     public float doubleTapTime = 0.3f;
@@ -34,17 +38,18 @@ public class PersonajeMov : MonoBehaviour
     public float delay;
     private int subir_caer;
 
-    // ZONA DE MOVIMIENTO
+    public Camera camara;
     public BoxCollider2D zonaMovimiento;
 
-    //camarah
-    public Camera camara;
-
     public HitboxPlayer hitbox;
+    public Bloqueo bloqueo;
+
+    public HitboxPlayer hitboxAereaFuerte;
 
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        bloqueo = GetComponent<Bloqueo>();
         ypos_piso = transform.position.y;
     }
 
@@ -107,7 +112,6 @@ public class PersonajeMov : MonoBehaviour
             {
                 corriendo = true;
                 direccion = 1;
-                Debug.Log("Estas corriendo a la derecha bro");
             }
 
             ultimoD = Time.time;
@@ -119,7 +123,6 @@ public class PersonajeMov : MonoBehaviour
             {
                 corriendo = true;
                 direccion = -1;
-                Debug.Log("Estas corriendo a la izquierda bro");
             }
 
             ultimoA = Time.time;
@@ -136,7 +139,7 @@ public class PersonajeMov : MonoBehaviour
             fase_salto = 0;
         }
 
-        if (Input.GetKeyUp(KeyCode.Space) && saltando && fase_salto == 1)
+        if (Input.GetKeyUp(KeyCode.Space) && saltando && fase_salto == 1 && !golpeAereoFuerte)
         {
             if (gravity > 0)
             {
@@ -146,6 +149,31 @@ public class PersonajeMov : MonoBehaviour
 
         if (saltando)
         {
+            if (golpeAereoFuerte)
+            {
+                transform.Translate(Vector3.down * fuerzaCaidaAtaqueFuerte * Time.deltaTime);
+
+                if (transform.position.y <= ypos_piso)
+                {
+                    transform.position = new Vector3(
+                        transform.position.x,
+                        ypos_piso,
+                        transform.position.z
+                    );
+
+                    saltando = false;
+                    inFloor = true;
+                    gravity = 0;
+                    fase_salto = 0;
+                    golpeAereoFuerte = false;
+                    air_attack = false;
+
+                    Debug.Log("Aterrizaje golpe fuerte aereo");
+                }
+
+                return;
+            }
+
             switch (fase_salto)
             {
                 case 0:
@@ -185,6 +213,94 @@ public class PersonajeMov : MonoBehaviour
         }
     }
 
+    public void Ataque()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            if (!saltando && inFloor)
+            {
+                Debug.Log("Golpe normal");
+
+                StartCoroutine(ActivarHitbox(false));
+            }
+            else
+            {
+                Debug.Log("No puedes hacer golpe normal en el aire");
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            if (saltando)
+            {
+                Debug.Log("ATAQUE FUERTE AEREO TIPO IRON MAN");
+
+                golpeAereoFuerte = true;
+                air_attack = true;
+                fase_salto = 2;
+                gravity = 0;
+
+                StartCoroutine(ActivarHitboxAereaFuerte());
+            }
+            else
+            {
+                Debug.Log("ATAQUE FUERTE");
+
+                StartCoroutine(ActivarHitbox(true));
+            }
+        }
+    }
+
+    IEnumerator ActivarHitbox(bool golpeFuerte)
+    {
+        if (hitbox == null)
+        {
+            Debug.LogWarning("No asignaste la hitbox en PersonajeMov");
+            yield break;
+        }
+
+        hitbox.Activar(golpeFuerte);
+
+        yield return new WaitForSeconds(0.2f);
+
+        hitbox.Desactivar();
+    }
+
+    IEnumerator ActivarHitboxAereaFuerte()
+    {
+        if (hitboxAereaFuerte == null)
+        {
+            Debug.LogWarning("No asignaste la hitbox aérea fuerte");
+            yield break;
+        }
+
+        hitboxAereaFuerte.Activar(true);
+
+        yield return new WaitForSeconds(0.3f);
+
+        hitboxAereaFuerte.Desactivar();
+    }
+
+    public void Bloquear()
+    {
+        if (bloqueo == null)
+        {
+            return;
+        }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            bloqueo.ActivarBloqueo();
+            Debug.Log("BLOQUEANDO");
+        }
+
+        if (Input.GetKeyUp(KeyCode.L))
+        {
+            bloqueo.DesactivarBloqueo();
+            Debug.Log("DEJO DE BLOQUEAR");
+        }
+    }
+
     public void DetectarSuelo()
     {
         ypos = transform.position.y;
@@ -212,15 +328,13 @@ public class PersonajeMov : MonoBehaviour
         float minX = limites.min.x;
         float maxX = limites.max.x;
 
-        // 🔥 SI LA CAMARA ESTA BLOQUEADA
         if (camara != null)
         {
             Camarahhh scriptCamara = camara.GetComponent<Camarahhh>();
 
             if (scriptCamara != null && scriptCamara.camaraBloqueada)
             {
-                float mitadPantalla = camara.orthographicSize * camara.aspect; //Esto da la mitad del ancho visible de la cámara
-                //con esto sacamos los bordes 
+                float mitadPantalla = camara.orthographicSize * camara.aspect;
 
                 float bordeIzquierdo = camara.transform.position.x - mitadPantalla;
                 float bordeDerecho = camara.transform.position.x + mitadPantalla;
@@ -260,24 +374,6 @@ public class PersonajeMov : MonoBehaviour
         air_attack = false;
     }
 
-    public void Ataque()
-    {
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            StartCoroutine(ActivarHitbox());
-        }
-    }
-
-    IEnumerator ActivarHitbox()
-    {
-        hitbox.Activar();
-
-        yield return new WaitForSeconds(0.2f);
-
-        hitbox.Desactivar();
-    }
-
-
     void Update()
     {
         DoubleTap();
@@ -286,5 +382,6 @@ public class PersonajeMov : MonoBehaviour
         DetectarSuelo();
         LimitarMovimiento();
         Ataque();
+        Bloquear();
     }
 }

@@ -19,7 +19,7 @@ public class Knockback : MonoBehaviour
     {
         if (siendoGolpeado)
         {
-            transform.position +=(Vector3)(direccionGolpe * fuerzaGolpe * Time.deltaTime);
+            transform.position +=(Vector3)(-direccionGolpe * fuerzaGolpe * Time.deltaTime);
         }
     }
 
