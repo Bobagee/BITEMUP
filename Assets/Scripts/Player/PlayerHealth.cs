@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     public int vida = 10;
+    public int vidas = 3;
 
     public bool stuneado;
     public float tiempoStun = 0.35f;
@@ -30,30 +31,30 @@ public class PlayerHealth : MonoBehaviour
 
         vida -= dano;
 
-        PlayerPowerUp powerUp =
-    GetComponent<PlayerPowerUp>();
-
-        if (powerUp != null)
-        {
-            powerUp.ReducirTiempoPorDaño(dano);
-        }
-
         AplicarStun();
         AplicarInvulnerabilidad();
         AplicarKnockback();
 
-        Debug.Log("Vida Player: " + vida);
-
         if (vida <= 0)
         {
-            Debug.Log("Player derrotado");
+            vidas--;
+
+            if (vidas > 0)
+            {
+                vida = 10;
+                Debug.Log("Perdiste una vida");
+            }
+            else
+            {
+                vida = 0;
+                Debug.Log("Game Over");
+            }
         }
     }
 
     public void AplicarStun()
     {
         stuneado = true;
-
         CancelInvoke("QuitarStun");
         Invoke("QuitarStun", tiempoStun);
     }
@@ -66,7 +67,6 @@ public class PlayerHealth : MonoBehaviour
     public void AplicarInvulnerabilidad()
     {
         invulnerable = true;
-
         CancelInvoke("QuitarInvulnerabilidad");
         Invoke("QuitarInvulnerabilidad", tiempoInvulnerable);
     }
@@ -78,8 +78,7 @@ public class PlayerHealth : MonoBehaviour
 
     void AplicarKnockback()
     {
-        GameObject enemy =
-            GameObject.FindGameObjectWithTag("Enemy");
+        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
 
         if (enemy == null)
         {
@@ -92,8 +91,7 @@ public class PlayerHealth : MonoBehaviour
                 enemy.transform.position
             ).normalized;
 
-        PlayerKnockback knock =
-            GetComponent<PlayerKnockback>();
+        PlayerKnockback knock = GetComponent<PlayerKnockback>();
 
         if (knock != null)
         {
