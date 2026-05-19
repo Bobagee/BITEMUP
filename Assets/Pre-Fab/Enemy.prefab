@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25f420f83ffea314596fa0b8e4d9bd7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDefense
-  probabilidadBloqueo: 0.2
+  probabilidadBloqueo: 0.07
   duracionBloqueo: 3
 --- !u!114 &589590272973291865
 MonoBehaviour:
