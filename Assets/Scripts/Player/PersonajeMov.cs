@@ -392,14 +392,21 @@ public class PersonajeMov : MonoBehaviour
 
         if (camara != null)
         {
-            Camarahhh scriptCamara = camara.GetComponent<Camarahhh>();
+            Transform camTransform = camara.transform;
+
+            if (camara.transform.parent != null)
+            {
+                camTransform = camara.transform.parent;
+            }
+
+            Camarahhh scriptCamara = camTransform.GetComponent<Camarahhh>();
 
             if (scriptCamara != null && scriptCamara.camaraBloqueada)
             {
                 float mitadPantalla = camara.orthographicSize * camara.aspect;
 
-                float bordeIzquierdo = camara.transform.position.x - mitadPantalla;
-                float bordeDerecho = camara.transform.position.x + mitadPantalla;
+                float bordeIzquierdo = camTransform.position.x - mitadPantalla;
+                float bordeDerecho = camTransform.position.x + mitadPantalla;
 
                 minX = Mathf.Max(minX, bordeIzquierdo);
                 maxX = Mathf.Min(maxX, bordeDerecho);

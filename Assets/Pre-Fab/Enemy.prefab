@@ -110,6 +110,7 @@ GameObject:
   - component: {fileID: 6113363162469617403}
   - component: {fileID: -5643346104809868666}
   - component: {fileID: 589590272973291865}
+  - component: {fileID: 3295864606066779339}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -342,3 +343,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Bloqueo
   bloqueando: 0
   tiempoBloqueoRoto: 0.6
+--- !u!114 &3295864606066779339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8200714118810067701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc4809fcbe11c994587170456e5796ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClampEnemy
+  zonaMovimiento: {fileID: 0}
+  limitarY: 1
