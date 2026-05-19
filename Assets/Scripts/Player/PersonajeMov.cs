@@ -4,6 +4,15 @@ using System.Collections;
 public class PersonajeMov : MonoBehaviour
 {
 
+
+    public PlayerPowerUp powerUp;
+
+
+    // COMBO
+    public int comboActual = 0;
+    public float tiempoMaxCombo = 0.6f;
+    private float ultimoGolpeCombo;
+
     private PlayerHealth playerHealth;
 
     public float speed_char = 5f;
@@ -54,6 +63,7 @@ public class PersonajeMov : MonoBehaviour
         bloqueo = GetComponent<Bloqueo>();
         ypos_piso = transform.position.y;
         playerHealth = GetComponent<PlayerHealth>();
+        powerUp = GetComponent<PlayerPowerUp>();
     }
 
     public void Movimiento()
@@ -113,6 +123,11 @@ public class PersonajeMov : MonoBehaviour
 
     public void DoubleTap()
     {
+        if (powerUp != null && powerUp.transformado)
+        {
+            corriendo = false;
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.D))
         {
             if (Time.time - ultimoD < doubleTapTime)
@@ -138,6 +153,10 @@ public class PersonajeMov : MonoBehaviour
 
     public void Salto()
     {
+        if (powerUp != null && powerUp.transformado)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && !saltando && inFloor)
         {
             ypos_piso = transform.position.y;
@@ -222,17 +241,15 @@ public class PersonajeMov : MonoBehaviour
 
     public void Ataque()
     {
-        if (playerHealth != null && playerHealth.stuneado)
-        {
-            return;
-        }
         if (Input.GetKeyDown(KeyCode.J))
         {
             if (!saltando && inFloor)
             {
-                Debug.Log("Golpe normal");
+                ActualizarCombo();
 
-                StartCoroutine(ActivarHitbox(false));
+                Debug.Log("Golpe combo " + comboActual);
+
+                StartCoroutine(ActivarHitbox(false, comboActual));
             }
             else
             {
@@ -257,12 +274,33 @@ public class PersonajeMov : MonoBehaviour
             {
                 Debug.Log("ATAQUE FUERTE");
 
-                StartCoroutine(ActivarHitbox(true));
+                comboActual = 0;
+
+                StartCoroutine(ActivarHitbox(true, 0));
             }
         }
     }
 
-    IEnumerator ActivarHitbox(bool golpeFuerte)
+    void ActualizarCombo()
+    {
+        if (Time.time - ultimoGolpeCombo <= tiempoMaxCombo)
+        {
+            comboActual++;
+        }
+        else
+        {
+            comboActual = 1;
+        }
+
+        if (comboActual > 3)
+        {
+            comboActual = 1;
+        }
+
+        ultimoGolpeCombo = Time.time;
+    }
+
+    IEnumerator ActivarHitbox(bool golpeFuerte, int combo)
     {
         if (hitbox == null)
         {
@@ -270,7 +308,7 @@ public class PersonajeMov : MonoBehaviour
             yield break;
         }
 
-        hitbox.Activar(golpeFuerte);
+        hitbox.Activar(golpeFuerte, combo);
 
         yield return new WaitForSeconds(0.2f);
 
@@ -285,7 +323,7 @@ public class PersonajeMov : MonoBehaviour
             yield break;
         }
 
-        hitboxAereaFuerte.Activar(true);
+        hitboxAereaFuerte.Activar(true, 0);
 
         yield return new WaitForSeconds(0.3f);
 
@@ -294,6 +332,15 @@ public class PersonajeMov : MonoBehaviour
 
     public void Bloquear()
     {
+        if (powerUp != null && powerUp.transformado)
+        {
+            if (bloqueo != null)
+            {
+                bloqueo.DesactivarBloqueo();
+            }
+
+            return;
+        }
         if (playerHealth != null && playerHealth.stuneado)
         {
             return;

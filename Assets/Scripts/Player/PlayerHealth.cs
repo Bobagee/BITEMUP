@@ -7,10 +7,19 @@ public class PlayerHealth : MonoBehaviour
     public bool stuneado;
     public float tiempoStun = 0.35f;
 
+    public bool invulnerable;
+    public float tiempoInvulnerable = 0.6f;
+
     public float fuerzaKnockback = 2f;
 
     public void RecibirGolpe(int dano)
     {
+        if (invulnerable)
+        {
+            Debug.Log("Player esta invulnerable");
+            return;
+        }
+
         Bloqueo bloqueo = GetComponent<Bloqueo>();
 
         if (bloqueo != null && bloqueo.EstaBloqueando())
@@ -21,8 +30,16 @@ public class PlayerHealth : MonoBehaviour
 
         vida -= dano;
 
-        AplicarStun();
+        PlayerPowerUp powerUp =
+    GetComponent<PlayerPowerUp>();
 
+        if (powerUp != null)
+        {
+            powerUp.ReducirTiempoPorDaño(dano);
+        }
+
+        AplicarStun();
+        AplicarInvulnerabilidad();
         AplicarKnockback();
 
         Debug.Log("Vida Player: " + vida);
@@ -46,6 +63,19 @@ public class PlayerHealth : MonoBehaviour
         stuneado = false;
     }
 
+    public void AplicarInvulnerabilidad()
+    {
+        invulnerable = true;
+
+        CancelInvoke("QuitarInvulnerabilidad");
+        Invoke("QuitarInvulnerabilidad", tiempoInvulnerable);
+    }
+
+    void QuitarInvulnerabilidad()
+    {
+        invulnerable = false;
+    }
+
     void AplicarKnockback()
     {
         GameObject enemy =
@@ -58,17 +88,16 @@ public class PlayerHealth : MonoBehaviour
 
         Vector2 direccion =
             (
-                -transform.position -
+                transform.position -
                 enemy.transform.position
             ).normalized;
 
-        Knockback knock =
-            GetComponent<Knockback>();
+        PlayerKnockback knock =
+            GetComponent<PlayerKnockback>();
 
         if (knock != null)
         {
             knock.fuerzaGolpe = fuerzaKnockback;
-
             knock.AplicarGolpe(direccion);
         }
     }

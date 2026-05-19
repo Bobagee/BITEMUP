@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class EnemyDefense : MonoBehaviour
 {
-    public int golpesParaBloquear = 3;
-    public float duracionBloqueo = 1.5f;
 
-    private int golpesNormalesRecibidos;
+    public float probabilidadBloqueo = 0.25f;
+    public float duracionBloqueo = 3.5f;
+
     private Bloqueo bloqueo;
 
     void Start()
@@ -13,33 +13,29 @@ public class EnemyDefense : MonoBehaviour
         bloqueo = GetComponent<Bloqueo>();
     }
 
-    public void RecibirGolpeNormal()
-    {
-        golpesNormalesRecibidos++;
-
-        Debug.Log("Golpes normales recibidos: " + golpesNormalesRecibidos);
-
-        if (golpesNormalesRecibidos >= golpesParaBloquear)
-        {
-            ActivarBloqueoTemporal();
-        }
-    }
-
-    void ActivarBloqueoTemporal()
+    public void IntentarBloquear()
     {
         if (bloqueo == null)
         {
             return;
         }
 
-        bloqueo.ActivarBloqueo();
+        if (bloqueo.EstaBloqueando())
+        {
+            return;
+        }
 
-        Debug.Log("Enemy bloqueando");
+        float suerte = Random.value;
 
-        golpesNormalesRecibidos = 0;
+        if (suerte <= probabilidadBloqueo)
+        {
+            bloqueo.ActivarBloqueo();
 
-        CancelInvoke("QuitarBloqueo");
-        Invoke("QuitarBloqueo", duracionBloqueo);
+            Debug.Log("Enemy decidio bloquear");
+
+            CancelInvoke("QuitarBloqueo");
+            Invoke("QuitarBloqueo", duracionBloqueo);
+        }
     }
 
     void QuitarBloqueo()
@@ -47,6 +43,7 @@ public class EnemyDefense : MonoBehaviour
         if (bloqueo != null)
         {
             bloqueo.DesactivarBloqueo();
+
             Debug.Log("Enemy dejo de bloquear");
         }
     }

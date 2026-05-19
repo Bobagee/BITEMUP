@@ -3,12 +3,24 @@ using System.Collections.Generic;
 
 public class HitboxPlayer : MonoBehaviour
 {
+    public int danoPowerUp = 5;
+    public int danoFuertePowerUp = 10;
+
+    private PlayerPowerUp powerUp;
+
     public int dano = 1;
     public int danoFuerte = 3;
 
     public bool golpeFuerte;
 
-    public float stunBloqueoRoto = 0.8f;
+    public int golpeCombo = 1;
+
+    public float knockGolpe1 = 3.5f;
+    public float knockGolpe2 = 4.5f;
+    public float knockGolpe3 = 6f;
+    public float knockFuerte = 7f;
+
+    public float stunBloqueoRoto = 1f;
 
     private BoxCollider2D col;
 
@@ -19,11 +31,14 @@ public class HitboxPlayer : MonoBehaviour
     {
         col = GetComponent<BoxCollider2D>();
         col.enabled = false;
+        powerUp = GetComponentInParent<PlayerPowerUp>();
     }
 
-    public void Activar(bool esGolpeFuerte)
+    public void Activar(bool esGolpeFuerte, int combo)
     {
         golpeFuerte = esGolpeFuerte;
+        golpeCombo = combo;
+
         enemigosGolpeados.Clear();
         col.enabled = true;
     }
@@ -64,10 +79,13 @@ public class HitboxPlayer : MonoBehaviour
                     {
                         Debug.Log("ROMPISTE EL BLOQUEO");
 
+                        if (ScreenShake.instance != null)
+                        {
+                            ScreenShake.instance.Shake(0.18f, 0.12f);
+                        }
+
                         bloqueo.RomperBloqueo();
-
                         enemigo.AplicarStun(stunBloqueoRoto);
-
                         enemigo.RecibirGolpe(danoFuerte);
                     }
                     else
@@ -82,26 +100,38 @@ public class HitboxPlayer : MonoBehaviour
                     {
                         Debug.Log("GOLPE FUERTE");
 
+                        if (ScreenShake.instance != null)
+                        {
+                            ScreenShake.instance.Shake(0.12f, 0.08f);
+                        }
+
                         enemigo.RecibirGolpe(danoFuerte);
+                        if (powerUp != null && !powerUp.transformado)
+                        {
+                            powerUp.GanarEnergia(5);
+                        }
                     }
                     else
                     {
-                        Debug.Log("Golpe normal");
-
+                        Debug.Log("Golpe combo " + golpeCombo);
                         enemigo.RecibirGolpe(dano);
+                        if (powerUp != null && !powerUp.transformado)
+                        {
+                            powerUp.GanarEnergia(2);
+                        }
 
                         EnemyDefense defensa =
                             other.GetComponent<EnemyDefense>();
 
                         if (defensa != null)
                         {
-                            defensa.RecibirGolpeNormal();
+                            defensa.IntentarBloquear();
                         }
                     }
                 }
 
-                Knockback knock =
-                    other.GetComponent<Knockback>();
+                EnemyKnockback knock =
+                    other.GetComponent<EnemyKnockback>();
 
                 if (knock != null)
                 {
@@ -113,14 +143,27 @@ public class HitboxPlayer : MonoBehaviour
 
                     if (golpeFuerte)
                     {
-                        knock.fuerzaGolpe = 6f;
+                        knock.fuerzaGolpe = knockFuerte;
                     }
                     else
                     {
-                        knock.fuerzaGolpe = 3.5f;
+                        if (golpeCombo == 1)
+                        {
+                            knock.fuerzaGolpe = knockGolpe1;
+                        }
+
+                        if (golpeCombo == 2)
+                        {
+                            knock.fuerzaGolpe = knockGolpe2;
+                        }
+
+                        if (golpeCombo == 3)
+                        {
+                            knock.fuerzaGolpe = knockGolpe3;
+                        }
                     }
 
-                    knock.AplicarGolpe(-direccion);
+                    knock.AplicarGolpe(direccion);
                 }
 
                 Debug.Log("Golpe conectado");
