@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Knockback : MonoBehaviour
+public class EnemyKnockback : MonoBehaviour
 {
     public float fuerzaGolpe = 5f;
 
