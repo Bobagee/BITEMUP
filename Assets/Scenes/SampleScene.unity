@@ -243,7 +243,7 @@ MonoBehaviour:
   piezas:
   - {fileID: 1781065708}
   - {fileID: 1615210892}
-  anchoPieza: 31.125
+  anchoPieza: 31.13
 --- !u!4 &200884562
 Transform:
   m_ObjectHideFlags: 0
@@ -1805,7 +1805,7 @@ Transform:
   m_GameObject: {fileID: 1615210891}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 61.79, y: -3.96178, z: 0}
+  m_LocalPosition: {x: 61.76, y: -3.96178, z: 0}
   m_LocalScale: {x: 2.25, y: 2.25, z: 2.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
