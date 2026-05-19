@@ -21,7 +21,7 @@ public class UIPlayer : MonoBehaviour
         if (playerPowerUp != null)
         {
             float porcentaje =((float)playerPowerUp.energiaActual /playerPowerUp.energiaNecesaria) * 100f;
-
+ 
             powerTexto.text =
                 "" +
                 Mathf.RoundToInt(porcentaje) +
