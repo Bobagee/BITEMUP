@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5836166700567727747}
@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a120b061deaad447bc4ee34f11976ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHitbox
-  dano: 1
+  dano: 2
 --- !u!1 &8200714118810067701
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ MonoBehaviour:
   player: {fileID: 0}
   activo: 1
   velocidad: 1.6
-  distanciaDetenerse: 1.3
+  distanciaDetenerse: 1
 --- !u!114 &4974047771781751121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,8 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ab87491b26f91b448563f9a56db46e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Knockback
-  fuerzaGolpe: 5
-  duracionGolpe: 0.18
+  fuerzaGolpe: 8
+  duracionGolpe: 0.7
   tiempoParaCombo: 0.5
   multiplicadorCombo: 0.3
   maxCombo: 5
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttack
   hitbox: {fileID: 8987343913693646931}
-  rangoAtaque: 1.2
+  rangoAtaque: 1.8
   tiempoEntreAtaques: 1.5
   duracionHitbox: 0.18
 --- !u!114 &-5643346104809868666
