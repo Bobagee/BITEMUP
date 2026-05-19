@@ -440,26 +440,30 @@ public class PersonajeMov : MonoBehaviour
         );
     }
 
-    void ActualizarAnimacionMovimiento()
-    {
-        bool moviendo = false;
+    public void ActualizarAnimacionMovimiento()
+{
+    bool moviendo = false;
 
-        if (!ground_attack && !saltando)
-        { if (
+    if (!ground_attack && !saltando)
+    {
+        if (
             Input.GetKey(KeyCode.W) ||
-            Input.GetKey(KeyCode.A) ||
             Input.GetKey(KeyCode.S) ||
+            Input.GetKey(KeyCode.A) ||
             Input.GetKey(KeyCode.D)
-            )
-            {
-                moviendo = true;
-            }
-        }
-        if (animator != null)
+        )
         {
-            animator.SetBool("isMoving", moviendo);
+            moviendo = true;
         }
     }
+
+    if (animator != null)
+    {
+        animator.SetBool("isMoving", moviendo);
+
+        animator.SetBool("isRunning", corriendo);
+    }
+}
 
     public void Terminar_Ani()
     {
