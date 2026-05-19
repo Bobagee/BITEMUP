@@ -4,6 +4,8 @@ using System.Collections;
 public class PersonajeMov : MonoBehaviour
 {
 
+    public Animator animator;
+
 
     public PlayerPowerUp powerUp;
 
@@ -64,6 +66,7 @@ public class PersonajeMov : MonoBehaviour
         ypos_piso = transform.position.y;
         playerHealth = GetComponent<PlayerHealth>();
         powerUp = GetComponent<PlayerPowerUp>();
+        animator = GetComponent<Animator>();
     }
 
     public void Movimiento()
@@ -437,6 +440,27 @@ public class PersonajeMov : MonoBehaviour
         );
     }
 
+    void ActualizarAnimacionMovimiento()
+    {
+        bool moviendo = false;
+
+        if (!ground_attack && !saltando)
+        { if (
+            Input.GetKey(KeyCode.W) ||
+            Input.GetKey(KeyCode.A) ||
+            Input.GetKey(KeyCode.S) ||
+            Input.GetKey(KeyCode.D)
+            )
+            {
+                moviendo = true;
+            }
+        }
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", moviendo);
+        }
+    }
+
     public void Terminar_Ani()
     {
         ground_attack = false;
@@ -452,5 +476,6 @@ public class PersonajeMov : MonoBehaviour
         LimitarMovimiento();
         Ataque();
         Bloquear();
+        ActualizarAnimacionMovimiento();
     }
 }
