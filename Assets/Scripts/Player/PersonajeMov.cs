@@ -156,16 +156,21 @@ public class PersonajeMov : MonoBehaviour
 
     public void Salto()
     {
-        if (powerUp != null && powerUp.transformado)
-        {
-            return;
-        }
         if (Input.GetKeyDown(KeyCode.Space) && !saltando && inFloor)
         {
             ypos_piso = transform.position.y;
             saltando = true;
             inFloor = false;
-            fase_salto = 0;
+
+            gravity = altura_salto;
+            fase_salto = 1;
+
+            if (animator != null)
+            {
+                animator.SetBool("isJumping", true);
+                animator.SetBool("isFalling", false);
+                animator.SetBool("isSlam", false);
+            }
         }
 
         if (Input.GetKeyUp(KeyCode.Space) && saltando && fase_salto == 1 && !golpeAereoFuerte)
@@ -196,8 +201,6 @@ public class PersonajeMov : MonoBehaviour
                     fase_salto = 0;
                     golpeAereoFuerte = false;
                     air_attack = false;
-
-                    Debug.Log("Aterrizaje golpe fuerte aereo");
                 }
 
                 return;
@@ -205,11 +208,6 @@ public class PersonajeMov : MonoBehaviour
 
             switch (fase_salto)
             {
-                case 0:
-                    gravity = altura_salto;
-                    fase_salto = 1;
-                    break;
-
                 case 1:
                     transform.Translate(Vector3.up * gravity * Time.deltaTime);
                     gravity -= potencia_salto * Time.deltaTime;
@@ -218,6 +216,12 @@ public class PersonajeMov : MonoBehaviour
                     {
                         fase_salto = 2;
                     }
+
+                    if (animator != null)
+                    {
+                        animator.SetBool("isJumping", false);
+                        animator.SetBool("isFalling", true);
+                    }
                     break;
 
                 case 2:
@@ -225,22 +229,30 @@ public class PersonajeMov : MonoBehaviour
                     transform.Translate(Vector3.down * gravity * Time.deltaTime);
 
                     if (transform.position.y <= ypos_piso)
-                    {
-                        transform.position = new Vector3(
-                            transform.position.x,
-                            ypos_piso,
-                            transform.position.z
-                        );
+{
+    transform.position = new Vector3(
+        transform.position.x,
+        ypos_piso,
+        transform.position.z
+    );
 
-                        saltando = false;
-                        inFloor = true;
-                        gravity = 0;
-                        fase_salto = 0;
-                    }
+    saltando = false;
+    inFloor = true;
+    gravity = 0;
+    fase_salto = 0;
+
+    if (animator != null)
+    {
+        animator.SetBool("isJumping", false);
+        animator.SetBool("isFalling", false);
+        animator.SetBool("isSlam", false);
+    }
+}
                     break;
             }
         }
-    }
+    
+}
 
     public void Ataque()
     {
@@ -441,29 +453,41 @@ public class PersonajeMov : MonoBehaviour
     }
 
     public void ActualizarAnimacionMovimiento()
-{
-    bool moviendo = false;
-
-    if (!ground_attack && !saltando)
     {
-        if (
-            Input.GetKey(KeyCode.W) ||
-            Input.GetKey(KeyCode.S) ||
-            Input.GetKey(KeyCode.A) ||
-            Input.GetKey(KeyCode.D)
-        )
+        bool moviendo = false;
+
+        if (!saltando && !ground_attack)
         {
-            moviendo = true;
+            if (
+                Input.GetKey(KeyCode.W) ||
+                Input.GetKey(KeyCode.S) ||
+                Input.GetKey(KeyCode.A) ||
+                Input.GetKey(KeyCode.D)
+            )
+            {
+                moviendo = true;
+            }
+        }
+
+      
+        if (saltando && !golpeAereoFuerte)
+        {
+            if (gravity > 0)
+            {
+                saltando = true;
+            }
+        }
+
+        if (animator != null)
+        {
+            animator.SetBool("isMoving", moviendo);
+            animator.SetBool("isRunning", corriendo && !saltando);
+
+            animator.SetBool("isJumping", saltando);
+            
+            animator.SetBool("isSlam", golpeAereoFuerte);
         }
     }
-
-    if (animator != null)
-    {
-        animator.SetBool("isMoving", moviendo);
-
-        animator.SetBool("isRunning", corriendo);
-    }
-}
 
     public void Terminar_Ani()
     {

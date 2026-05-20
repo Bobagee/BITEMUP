@@ -2477,6 +2477,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4215344542363955691, guid: 8fab9b433a161be41a7a1e60a638c005, type: 3}
+      propertyPath: altura_salto
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215344542363955691, guid: 8fab9b433a161be41a7a1e60a638c005, type: 3}
+      propertyPath: potencia_salto
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215344542363955691, guid: 8fab9b433a161be41a7a1e60a638c005, type: 3}
       propertyPath: zonaMovimiento
       value: 
       objectReference: {fileID: 1202028789}
