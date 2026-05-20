@@ -15,7 +15,10 @@ public class UIPlayer : MonoBehaviour
         if (playerHealth != null)
         {
             saludTexto.text = "" + playerHealth.vida;
-            vidasTexto.text = "" + playerHealth.vidas;
+            if (GameManager.instance != null)
+            {
+                vidasTexto.text = "Vidas: " + GameManager.instance.vidas;
+            }
         }
 
         if (playerPowerUp != null)

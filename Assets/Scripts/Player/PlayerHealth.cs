@@ -2,8 +2,7 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int vida = 10;
-    public int vidas = 3;
+    public int vida = 100;
 
     public bool stuneado;
     public float tiempoStun = 0.35f;
@@ -46,18 +45,8 @@ public class PlayerHealth : MonoBehaviour
 
         if (vida <= 0)
         {
-            vidas--;
-
-            if (vidas > 0)
-            {
-                vida = 100;
-                Debug.Log("Perdiste una vida");
-            }
-            else
-            {
-                vida = 0;
-                Debug.Log("Game Over");
-            }
+            vida = 0;
+            Morir();
         }
     }
 
@@ -106,6 +95,14 @@ public class PlayerHealth : MonoBehaviour
         {
             knock.fuerzaGolpe = fuerzaKnockback;
             knock.AplicarGolpe(direccion);
+        }
+    }
+
+    void Morir()
+    {
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.PerderVida();
         }
     }
 }
