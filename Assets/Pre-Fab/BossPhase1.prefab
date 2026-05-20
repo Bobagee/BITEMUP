@@ -67,7 +67,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -1.9, y: 1.7}
+  m_Offset: {x: -1.65, y: -2.11}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -129,7 +129,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.271877, y: -2.5147986, z: 0}
-  m_LocalScale: {x: -1.5, y: 1.5, z: 0.75}
+  m_LocalScale: {x: -1, y: 1, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 154963747118298942}
@@ -184,8 +184,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 2b27e75133eb0f142aad468769881f57, type: 3}
-  m_Color: {r: 0.5, g: 0.077830195, b: 0.077830195, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 1d97d7a75c698d54d9f3c096cf8de275, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -207,7 +207,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   animator: {fileID: 0}
-  vida: 20
+  vidaMaxima: 100
+  vida: 100
   stuneado: 0
   tiempoStun: 0.35
 --- !u!114 &2541528546849174291
@@ -278,7 +279,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.99999964, y: 0.13000011}
+  m_Offset: {x: 0.5000005, y: -0.3699999}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -288,7 +289,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.0199993, y: 8.91}
+  m_Size: {x: 6.0199995, y: 9.91}
   m_EdgeRadius: 0
 --- !u!114 &5415955008801375796
 MonoBehaviour:
@@ -332,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyDefense
   animator: {fileID: 0}
-  probabilidadBloqueo: 0.2
+  probabilidadBloqueo: 0
   duracionBloqueo: 3
 --- !u!114 &589590272973291865
 MonoBehaviour:
@@ -372,7 +373,7 @@ Animator:
   m_GameObject: {fileID: 8200714118810067701}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 582d9cf1e89cd7e429b71291e8426cb7, type: 2}
+  m_Controller: {fileID: 9100000, guid: 7059f988ee5a47549a9d18a32bbc84cd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

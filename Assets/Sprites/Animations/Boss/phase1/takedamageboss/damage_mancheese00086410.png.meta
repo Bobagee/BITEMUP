@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: fb825d9b0cbcb38428c762fca97a9634
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1851341958832448114
+    second: damage_mancheese00086410_0
+  - first:
+      213: -7827268009287020091
+    second: damage_mancheese00086410_1
+  - first:
+      213: 3017565102811827446
+    second: damage_mancheese00086410_2
+  - first:
+      213: -7474947687719111985
+    second: damage_mancheese00086410_3
+  - first:
+      213: -4792753914717808787
+    second: damage_mancheese00086410_4
+  - first:
+      213: 649267709763315822
+    second: damage_mancheese00086410_5
+  - first:
+      213: -1542818165358349460
+    second: damage_mancheese00086410_6
+  - first:
+      213: 92290638205593637
+    second: damage_mancheese00086410_7
+  - first:
+      213: -2720935306757176345
+    second: damage_mancheese00086410_8
+  - first:
+      213: -4896978306784938361
+    second: damage_mancheese00086410_9
+  - first:
+      213: 7445680548361540977
+    second: damage_mancheese00086410_10
+  - first:
+      213: 3313191629253305288
+    second: damage_mancheese00086410_11
+  - first:
+      213: 2694299445092986935
+    second: damage_mancheese00086410_12
+  - first:
+      213: -1287521377657722422
+    second: damage_mancheese00086410_13
+  - first:
+      213: -5223999498939654286
+    second: damage_mancheese00086410_14
+  - first:
+      213: 6356091953771011234
+    second: damage_mancheese00086410_15
+  - first:
+      213: -1222155456441863026
+    second: damage_mancheese00086410_16
+  - first:
+      213: 4688612556475359174
+    second: damage_mancheese00086410_17
+  - first:
+      213: 2574211888112687563
+    second: damage_mancheese00086410_18
+  - first:
+      213: -1170683580930367949
+    second: damage_mancheese00086410_19
+  - first:
+      213: 5753191369246424838
+    second: damage_mancheese00086410_20
+  - first:
+      213: 7991922858460058955
+    second: damage_mancheese00086410_21
+  - first:
+      213: 1460824214643199326
+    second: damage_mancheese00086410_22
+  - first:
+      213: -3014066375053730409
+    second: damage_mancheese00086410_23
+  - first:
+      213: -7284171134706511133
+    second: damage_mancheese00086410_24
+  - first:
+      213: 1895948708449021321
+    second: damage_mancheese00086410_25
+  - first:
+      213: -8929365766076884039
+    second: damage_mancheese00086410_26
+  - first:
+      213: 1113272413307588202
+    second: damage_mancheese00086410_27
+  - first:
+      213: 4621675579838655431
+    second: damage_mancheese00086410_28
+  - first:
+      213: 5502230390908315342
+    second: damage_mancheese00086410_29
+  - first:
+      213: -4575407080787201558
+    second: damage_mancheese00086410_30
+  - first:
+      213: 4501095180566138095
+    second: damage_mancheese00086410_31
+  - first:
+      213: 8343088008862211918
+    second: damage_mancheese00086410_32
+  - first:
+      213: -7166259148376576159
+    second: damage_mancheese00086410_33
+  - first:
+      213: 5598847853101246216
+    second: damage_mancheese00086410_34
+  - first:
+      213: 9079594512168172792
+    second: damage_mancheese00086410_35
+  - first:
+      213: -6945781750308939970
+    second: damage_mancheese00086410_36
+  - first:
+      213: -1921679541889169608
+    second: damage_mancheese00086410_37
+  - first:
+      213: -6419845009122034279
+    second: damage_mancheese00086410_38
+  - first:
+      213: 2844399559084173046
+    second: damage_mancheese00086410_39
+  - first:
+      213: 3267325553053892563
+    second: damage_mancheese00086410_40
+  - first:
+      213: 7071244570611786410
+    second: damage_mancheese00086410_41
+  - first:
+      213: -9145126288933527012
+    second: damage_mancheese00086410_42
+  - first:
+      213: 2727462817162219247
+    second: damage_mancheese00086410_43
+  - first:
+      213: -734726859481833294
+    second: damage_mancheese00086410_44
+  - first:
+      213: -6786781620950543760
+    second: damage_mancheese00086410_45
+  - first:
+      213: -5086353253898263065
+    second: damage_mancheese00086410_46
+  - first:
+      213: 4014350396281195602
+    second: damage_mancheese00086410_47
+  - first:
+      213: -6599185221310376697
+    second: damage_mancheese00086410_48
+  - first:
+      213: -6920817609126329665
+    second: damage_mancheese00086410_49
+  - first:
+      213: -9166199712825230682
+    second: damage_mancheese00086410_50
+  - first:
+      213: 6750081079277120893
+    second: damage_mancheese00086410_51
+  - first:
+      213: -404100973571739610
+    second: damage_mancheese00086410_52
+  - first:
+      213: -8939494430264035562
+    second: damage_mancheese00086410_53
+  - first:
+      213: 7064357892187892677
+    second: damage_mancheese00086410_54
+  - first:
+      213: 474846646765309446
+    second: damage_mancheese00086410_55
+  - first:
+      213: -474657359083683539
+    second: damage_mancheese00086410_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: damage_mancheese00086410_0
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 41
+        width: 466
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272ebf5e3b941b910800000000000000
+      internalID: 1851341958832448114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_1
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 733
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c11ba85735ff5390800000000000000
+      internalID: -7827268009287020091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_2
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 724
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcc6b7297b80e920800000000000000
+      internalID: 3017565102811827446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 732
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2ffd69ea6a34890800000000000000
+      internalID: -7474947687719111985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_4
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 708
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d16925b7bc7db0800000000000000
+      internalID: -4792753914717808787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_5
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 203
+        width: 93
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68e294ca89a20900800000000000000
+      internalID: 649267709763315822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_6
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 121
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63bbc48d0fc69ae0800000000000000
+      internalID: -1542818165358349460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_7
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 80
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528a652b8d1e74100800000000000000
+      internalID: 92290638205593637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_8
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 133
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38bef21cb4d3ad0800000000000000
+      internalID: -2720935306757176345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_9
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 119
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863a4fdc207a0cb0800000000000000
+      internalID: -4896978306784938361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_10
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 100
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751024820f545760800000000000000
+      internalID: 7445680548361540977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 84
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3e0769b32dafd20800000000000000
+      internalID: 3313191629253305288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_12
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 63
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730bc4ff113146520800000000000000
+      internalID: 2694299445092986935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_13
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 98
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac96dfbe02ec12ee0800000000000000
+      internalID: -1287521377657722422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 88
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f12e63220a087b0800000000000000
+      internalID: -5223999498939654286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_15
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 92
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac5d38b4ff553850800000000000000
+      internalID: 6356091953771011234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_16
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 50
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e843a7e66180a0fe0800000000000000
+      internalID: -1222155456441863026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_17
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 72
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf562e574c411140800000000000000
+      internalID: 4688612556475359174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_18
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 68
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc95b8fc21079b320800000000000000
+      internalID: 2574211888112687563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_19
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 71
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e53465c75e0cfe0800000000000000
+      internalID: -1170683580930367949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_20
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 76
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fb6c0911177df40800000000000000
+      internalID: 5753191369246424838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_21
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 55
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4516da2f7309ee60800000000000000
+      internalID: 7991922858460058955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_22
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 42
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dc81922e3e54410800000000000000
+      internalID: 1460824214643199326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_23
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 55
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d1971e992eb26d0800000000000000
+      internalID: -3014066375053730409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_24
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 53
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e21aa832fc69ea90800000000000000
+      internalID: -7284171134706511133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_25
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98de67f1e43cf4a10800000000000000
+      internalID: 1895948708449021321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_26
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 58
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb14734525841480800000000000000
+      internalID: -8929365766076884039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_27
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 56
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ec07d8c53237f00800000000000000
+      internalID: 1113272413307588202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_28
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 58
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb6163047d732040800000000000000
+      internalID: 4621675579838655431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_29
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 54
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6e2727369db5c40800000000000000
+      internalID: 5502230390908315342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_30
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae13fd66083e080c0800000000000000
+      internalID: -4575407080787201558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_31
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 56
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec0ed9083a177e30800000000000000
+      internalID: 4501095180566138095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_32
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 53
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f9d0a275a98c370800000000000000
+      internalID: 8343088008862211918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_33
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 49
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fee94e5455c8c90800000000000000
+      internalID: -7166259148376576159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_34
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 44
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807ee8b557a13bd40800000000000000
+      internalID: 5598847853101246216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_35
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fcbe526a13310e70800000000000000
+      internalID: 9079594512168172792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_36
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 41
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37d1756c40ab9f90800000000000000
+      internalID: -6945781750308939970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_37
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 51
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8378f8d53a2d455e0800000000000000
+      internalID: -1921679541889169608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_38
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 46
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d773e5af028e6a0800000000000000
+      internalID: -6419845009122034279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_39
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f66d762456597720800000000000000
+      internalID: 2844399559084173046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_40
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 54
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df755b874fd75d20800000000000000
+      internalID: 3267325553053892563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_41
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 43
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2a93fc87b122260800000000000000
+      internalID: 7071244570611786410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_42
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 49
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12e70ad71cf51180800000000000000
+      internalID: -9145126288933527012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_43
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 41
+        width: 62
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee4a034bf4e9d520800000000000000
+      internalID: 2727462817162219247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_44
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 52
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0a5a560d9bdc5f0800000000000000
+      internalID: -734726859481833294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_45
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 44
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072d71bd21280d1a0800000000000000
+      internalID: -6786781620950543760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_46
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 54
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5ed3b0aa4a969b0800000000000000
+      internalID: -5086353253898263065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_47
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c0a4e9a66d5b730800000000000000
+      internalID: 4014350396281195602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_48
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 41
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70599c4510cfa64a0800000000000000
+      internalID: -6599185221310376697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_49
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 46
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c1c47d0154ff90800000000000000
+      internalID: -6920817609126329665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_50
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 42
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aab3c00ded1bc080800000000000000
+      internalID: -9166199712825230682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_51
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 44
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7de5676afa1dad50800000000000000
+      internalID: 6750081079277120893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_52
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 41
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620fdd83e48546af0800000000000000
+      internalID: -404100973571739610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_53
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617778cdd2980f380800000000000000
+      internalID: -8939494430264035562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_54
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 41
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb261a0314a90260800000000000000
+      internalID: 7064357892187892677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_55
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 41
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e4b37628ef69600800000000000000
+      internalID: 474846646765309446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_mancheese00086410_56
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 44
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21cac195ada969f0800000000000000
+      internalID: -474657359083683539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      damage_mancheese00086410_0: 1851341958832448114
+      damage_mancheese00086410_1: -7827268009287020091
+      damage_mancheese00086410_10: 7445680548361540977
+      damage_mancheese00086410_11: 3313191629253305288
+      damage_mancheese00086410_12: 2694299445092986935
+      damage_mancheese00086410_13: -1287521377657722422
+      damage_mancheese00086410_14: -5223999498939654286
+      damage_mancheese00086410_15: 6356091953771011234
+      damage_mancheese00086410_16: -1222155456441863026
+      damage_mancheese00086410_17: 4688612556475359174
+      damage_mancheese00086410_18: 2574211888112687563
+      damage_mancheese00086410_19: -1170683580930367949
+      damage_mancheese00086410_2: 3017565102811827446
+      damage_mancheese00086410_20: 5753191369246424838
+      damage_mancheese00086410_21: 7991922858460058955
+      damage_mancheese00086410_22: 1460824214643199326
+      damage_mancheese00086410_23: -3014066375053730409
+      damage_mancheese00086410_24: -7284171134706511133
+      damage_mancheese00086410_25: 1895948708449021321
+      damage_mancheese00086410_26: -8929365766076884039
+      damage_mancheese00086410_27: 1113272413307588202
+      damage_mancheese00086410_28: 4621675579838655431
+      damage_mancheese00086410_29: 5502230390908315342
+      damage_mancheese00086410_3: -7474947687719111985
+      damage_mancheese00086410_30: -4575407080787201558
+      damage_mancheese00086410_31: 4501095180566138095
+      damage_mancheese00086410_32: 8343088008862211918
+      damage_mancheese00086410_33: -7166259148376576159
+      damage_mancheese00086410_34: 5598847853101246216
+      damage_mancheese00086410_35: 9079594512168172792
+      damage_mancheese00086410_36: -6945781750308939970
+      damage_mancheese00086410_37: -1921679541889169608
+      damage_mancheese00086410_38: -6419845009122034279
+      damage_mancheese00086410_39: 2844399559084173046
+      damage_mancheese00086410_4: -4792753914717808787
+      damage_mancheese00086410_40: 3267325553053892563
+      damage_mancheese00086410_41: 7071244570611786410
+      damage_mancheese00086410_42: -9145126288933527012
+      damage_mancheese00086410_43: 2727462817162219247
+      damage_mancheese00086410_44: -734726859481833294
+      damage_mancheese00086410_45: -6786781620950543760
+      damage_mancheese00086410_46: -5086353253898263065
+      damage_mancheese00086410_47: 4014350396281195602
+      damage_mancheese00086410_48: -6599185221310376697
+      damage_mancheese00086410_49: -6920817609126329665
+      damage_mancheese00086410_5: 649267709763315822
+      damage_mancheese00086410_50: -9166199712825230682
+      damage_mancheese00086410_51: 6750081079277120893
+      damage_mancheese00086410_52: -404100973571739610
+      damage_mancheese00086410_53: -8939494430264035562
+      damage_mancheese00086410_54: 7064357892187892677
+      damage_mancheese00086410_55: 474846646765309446
+      damage_mancheese00086410_56: -474657359083683539
+      damage_mancheese00086410_6: -1542818165358349460
+      damage_mancheese00086410_7: 92290638205593637
+      damage_mancheese00086410_8: -2720935306757176345
+      damage_mancheese00086410_9: -4896978306784938361
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

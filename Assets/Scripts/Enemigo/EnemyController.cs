@@ -4,6 +4,8 @@ public class EnemyController : MonoBehaviour
 {
     public Animator animator;
 
+    public int vidaMaxima = 3;
+
     public int vida = 3;
 
     public bool stuneado;

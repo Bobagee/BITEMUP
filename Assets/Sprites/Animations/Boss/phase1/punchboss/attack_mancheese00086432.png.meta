@@ -1,0 +1,1040 @@
+fileFormatVersion: 2
+guid: c39c0276f49b9034f8d22bb3be8396f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6816268981286424359
+    second: attack_mancheese00086432_0
+  - first:
+      213: 7595724398863766967
+    second: attack_mancheese00086432_1
+  - first:
+      213: 8574908898090663297
+    second: attack_mancheese00086432_2
+  - first:
+      213: -6884463094789810934
+    second: attack_mancheese00086432_3
+  - first:
+      213: -7757693338206081156
+    second: attack_mancheese00086432_4
+  - first:
+      213: 4287372340975026142
+    second: attack_mancheese00086432_5
+  - first:
+      213: 8320586761014527747
+    second: attack_mancheese00086432_6
+  - first:
+      213: 4622644541813260800
+    second: attack_mancheese00086432_7
+  - first:
+      213: -1949893632085237657
+    second: attack_mancheese00086432_8
+  - first:
+      213: 3723984337134266788
+    second: attack_mancheese00086432_9
+  - first:
+      213: -4643255874826470883
+    second: attack_mancheese00086432_10
+  - first:
+      213: 7083862207749904190
+    second: attack_mancheese00086432_11
+  - first:
+      213: -1004462818034561341
+    second: attack_mancheese00086432_12
+  - first:
+      213: -2908312899040163650
+    second: attack_mancheese00086432_13
+  - first:
+      213: 1565774877692975994
+    second: attack_mancheese00086432_14
+  - first:
+      213: 9078499771192074780
+    second: attack_mancheese00086432_15
+  - first:
+      213: 7007822123216240463
+    second: attack_mancheese00086432_16
+  - first:
+      213: -4568368499513927169
+    second: attack_mancheese00086432_17
+  - first:
+      213: -7016750685421590677
+    second: attack_mancheese00086432_18
+  - first:
+      213: -7172885664331721044
+    second: attack_mancheese00086432_19
+  - first:
+      213: -6432423609938939387
+    second: attack_mancheese00086432_20
+  - first:
+      213: -9211971455138360920
+    second: attack_mancheese00086432_21
+  - first:
+      213: 2472557438521007914
+    second: attack_mancheese00086432_22
+  - first:
+      213: -207021548018525652
+    second: attack_mancheese00086432_23
+  - first:
+      213: -5757937876273318030
+    second: attack_mancheese00086432_24
+  - first:
+      213: 5897715119125316027
+    second: attack_mancheese00086432_25
+  - first:
+      213: 8373190297496301104
+    second: attack_mancheese00086432_26
+  - first:
+      213: 1014994166101217686
+    second: attack_mancheese00086432_27
+  - first:
+      213: 3124014828224651144
+    second: attack_mancheese00086432_28
+  - first:
+      213: -2366134726938491331
+    second: attack_mancheese00086432_29
+  - first:
+      213: 6799806092948716293
+    second: attack_mancheese00086432_30
+  - first:
+      213: -4651285682592414947
+    second: attack_mancheese00086432_31
+  - first:
+      213: 1423179459079624615
+    second: attack_mancheese00086432_32
+  - first:
+      213: -8158026330638523336
+    second: attack_mancheese00086432_33
+  - first:
+      213: 2209777994483055372
+    second: attack_mancheese00086432_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack_mancheese00086432_0
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 50
+        width: 617
+        height: 916
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f471b3680489e50800000000000000
+      internalID: 6816268981286424359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_1
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 837
+        width: 153
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5da0ec81f696960800000000000000
+      internalID: 7595724398863766967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_2
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 959
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18db7040632300770800000000000000
+      internalID: 8574908898090663297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_3
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 489
+        width: 85
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0554cd6a497570a0800000000000000
+      internalID: -6884463094789810934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_4
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 614
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fefcbc203275490800000000000000
+      internalID: -7757693338206081156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 547
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfb6abbd6ecf7b30800000000000000
+      internalID: 4287372340975026142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 561
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307c6152399a87370800000000000000
+      internalID: 8320586761014527747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 548
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0028dad08bee62040800000000000000
+      internalID: 4622644541813260800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 541
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76063c5921690f4e0800000000000000
+      internalID: -1949893632085237657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_9
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 532
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9a10c26004ea330800000000000000
+      internalID: 3723984337134266788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_10
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 542
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1af8b30267df8fb0800000000000000
+      internalID: -4643255874826470883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 535
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e375fb2652fee4260800000000000000
+      internalID: 7083862207749904190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_12
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 521
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce46fc836e6f02f0800000000000000
+      internalID: -1004462818034561341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_13
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 504
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb84605c3d893a7d0800000000000000
+      internalID: -2908312899040163650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 508
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bde1794ffbab510800000000000000
+      internalID: 1565774877692975994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_15
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 483
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c126e53217f4dfd70800000000000000
+      internalID: 9078499771192074780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_16
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 496
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f7d6f8719c04160800000000000000
+      internalID: 7007822123216240463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_17
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 498
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9536fcd05e990c0800000000000000
+      internalID: -4568368499513927169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_18
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 418
+        width: 25
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a7fd8d6e7f9e90800000000000000
+      internalID: -7016750685421590677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 488
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6140bed7ac47c90800000000000000
+      internalID: -7172885664331721044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_20
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 255
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502f0c4aec07bb6a0800000000000000
+      internalID: -6432423609938939387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_21
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a19077c4c0882080800000000000000
+      internalID: -9211971455138360920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_22
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 169
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f5bc1e3e9405220800000000000000
+      internalID: 2472557438521007914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_23
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 202
+        width: 129
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a1189bff2802df0800000000000000
+      internalID: -207021548018525652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27736f52202b710b0800000000000000
+      internalID: -5757937876273318030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_25
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 145
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb14ae547a4e8d150800000000000000
+      internalID: 5897715119125316027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_26
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 144
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea307663c833470800000000000000
+      internalID: 8373190297496301104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_27
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6919e8ff0dbf51e00800000000000000
+      internalID: 1014994166101217686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_28
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 132
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88f126d3feaba5b20800000000000000
+      internalID: 3124014828224651144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_29
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 133
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d368d1e800dc92fd0800000000000000
+      internalID: -2366134726938491331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_30
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 119
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bbeb75d93cd5e50800000000000000
+      internalID: 6799806092948716293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_31
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 110
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d130834b050537fb0800000000000000
+      internalID: -4651285682592414947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_32
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 45
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7d21e7d2620c310800000000000000
+      internalID: 1423179459079624615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_33
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 39
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834e10e764ed8ce80800000000000000
+      internalID: -8158026330638523336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack_mancheese00086432_34
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 48
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b33a9c065baae10800000000000000
+      internalID: 2209777994483055372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      attack_mancheese00086432_0: 6816268981286424359
+      attack_mancheese00086432_1: 7595724398863766967
+      attack_mancheese00086432_10: -4643255874826470883
+      attack_mancheese00086432_11: 7083862207749904190
+      attack_mancheese00086432_12: -1004462818034561341
+      attack_mancheese00086432_13: -2908312899040163650
+      attack_mancheese00086432_14: 1565774877692975994
+      attack_mancheese00086432_15: 9078499771192074780
+      attack_mancheese00086432_16: 7007822123216240463
+      attack_mancheese00086432_17: -4568368499513927169
+      attack_mancheese00086432_18: -7016750685421590677
+      attack_mancheese00086432_19: -7172885664331721044
+      attack_mancheese00086432_2: 8574908898090663297
+      attack_mancheese00086432_20: -6432423609938939387
+      attack_mancheese00086432_21: -9211971455138360920
+      attack_mancheese00086432_22: 2472557438521007914
+      attack_mancheese00086432_23: -207021548018525652
+      attack_mancheese00086432_24: -5757937876273318030
+      attack_mancheese00086432_25: 5897715119125316027
+      attack_mancheese00086432_26: 8373190297496301104
+      attack_mancheese00086432_27: 1014994166101217686
+      attack_mancheese00086432_28: 3124014828224651144
+      attack_mancheese00086432_29: -2366134726938491331
+      attack_mancheese00086432_3: -6884463094789810934
+      attack_mancheese00086432_30: 6799806092948716293
+      attack_mancheese00086432_31: -4651285682592414947
+      attack_mancheese00086432_32: 1423179459079624615
+      attack_mancheese00086432_33: -8158026330638523336
+      attack_mancheese00086432_34: 2209777994483055372
+      attack_mancheese00086432_4: -7757693338206081156
+      attack_mancheese00086432_5: 4287372340975026142
+      attack_mancheese00086432_6: 8320586761014527747
+      attack_mancheese00086432_7: 4622644541813260800
+      attack_mancheese00086432_8: -1949893632085237657
+      attack_mancheese00086432_9: 3723984337134266788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

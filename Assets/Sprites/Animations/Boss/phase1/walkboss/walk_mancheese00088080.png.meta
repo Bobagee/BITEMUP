@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 1779881b9e34111498fcd5259a2fe084
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1121323524097627201
+    second: walk_mancheese00088080_0
+  - first:
+      213: 8116943284748542356
+    second: walk_mancheese00088080_1
+  - first:
+      213: 4094736930197997735
+    second: walk_mancheese00088080_2
+  - first:
+      213: -5489544046455567400
+    second: walk_mancheese00088080_3
+  - first:
+      213: 4852894792831152654
+    second: walk_mancheese00088080_4
+  - first:
+      213: -8884391836129174200
+    second: walk_mancheese00088080_5
+  - first:
+      213: 2248531380976039408
+    second: walk_mancheese00088080_6
+  - first:
+      213: 6753304100994872130
+    second: walk_mancheese00088080_7
+  - first:
+      213: -473270565430353539
+    second: walk_mancheese00088080_8
+  - first:
+      213: 2012464515385666582
+    second: walk_mancheese00088080_9
+  - first:
+      213: -4254251042865400842
+    second: walk_mancheese00088080_10
+  - first:
+      213: 739320875683173711
+    second: walk_mancheese00088080_11
+  - first:
+      213: 7077859177000579036
+    second: walk_mancheese00088080_12
+  - first:
+      213: -8626591496048443384
+    second: walk_mancheese00088080_13
+  - first:
+      213: 4367365840337747654
+    second: walk_mancheese00088080_14
+  - first:
+      213: 8639653565127592247
+    second: walk_mancheese00088080_15
+  - first:
+      213: -4968625052868600918
+    second: walk_mancheese00088080_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: walk_mancheese00088080_0
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1003
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb2fd322324070f0800000000000000
+      internalID: -1121323524097627201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_1
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 961
+        width: 92
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491ed6d79ec25a070800000000000000
+      internalID: 8116943284748542356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_2
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1007
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8002d0b8d63d830800000000000000
+      internalID: 4094736930197997735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_3
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1003
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dbc72c46c831d3b0800000000000000
+      internalID: -5489544046455567400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_4
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1010
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e023b033a12f85340800000000000000
+      internalID: 4852894792831152654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1003
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dd32252bc44b480800000000000000
+      internalID: -8884391836129174200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1004
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f53565b063643f10800000000000000
+      internalID: 2248531380976039408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_7
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 25
+        width: 580
+        height: 945
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243fcff9c4e88bd50800000000000000
+      internalID: 6753304100994872130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_8
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 596
+        width: 50
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7120e0adea9e69f0800000000000000
+      internalID: -473270565430353539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_9
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 591
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c24a270d5bdeb10800000000000000
+      internalID: 2012464515385666582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_10
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 582
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f33cac673dd5f4c0800000000000000
+      internalID: -4254251042865400842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_11
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 582
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45502a5b68924a00800000000000000
+      internalID: 739320875683173711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_12
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 578
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfab5fdb6b993260800000000000000
+      internalID: 7077859177000579036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_13
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 573
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80080af6db0384880800000000000000
+      internalID: -8626591496048443384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_14
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 566
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceb18da7100c9c30800000000000000
+      internalID: 4367365840337747654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_15
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 21
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7390ed3842736e770800000000000000
+      internalID: 8639653565127592247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk_mancheese00088080_16
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 24
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab19add6d5eb0bb0800000000000000
+      internalID: -4968625052868600918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      walk_mancheese00088080_0: -1121323524097627201
+      walk_mancheese00088080_1: 8116943284748542356
+      walk_mancheese00088080_10: -4254251042865400842
+      walk_mancheese00088080_11: 739320875683173711
+      walk_mancheese00088080_12: 7077859177000579036
+      walk_mancheese00088080_13: -8626591496048443384
+      walk_mancheese00088080_14: 4367365840337747654
+      walk_mancheese00088080_15: 8639653565127592247
+      walk_mancheese00088080_16: -4968625052868600918
+      walk_mancheese00088080_2: 4094736930197997735
+      walk_mancheese00088080_3: -5489544046455567400
+      walk_mancheese00088080_4: 4852894792831152654
+      walk_mancheese00088080_5: -8884391836129174200
+      walk_mancheese00088080_6: 2248531380976039408
+      walk_mancheese00088080_7: 6753304100994872130
+      walk_mancheese00088080_8: -473270565430353539
+      walk_mancheese00088080_9: 2012464515385666582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
