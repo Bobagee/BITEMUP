@@ -2,16 +2,33 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
+    public Animator animator;
+
     public int vida = 3;
 
     public bool stuneado;
     public float tiempoStun = 0.2f;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     public void RecibirGolpe(int dano)
     {
         vida -= dano;
 
-        AplicarStun(tiempoStun);
+        if (animator != null)
+        {
+            Debug.Log("Enemy triggers hit");
+            animator.SetTrigger("hit");
+        }
+        else
+        {
+            Debug.Log("No animator");
+        }
+
+            AplicarStun(tiempoStun);
 
         Debug.Log("Vida enemigo: " + vida);
 

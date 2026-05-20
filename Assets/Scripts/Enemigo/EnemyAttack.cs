@@ -5,8 +5,10 @@ public class EnemyAttack : MonoBehaviour
 {
     public EnemyHitbox hitbox;
 
+    public Animator animator;
+
     public float rangoAtaque = 1.3f;
-    public float tiempoEntreAtaques = 1.2f;
+    public float tiempoEntreAtaques = 0.6f;
     public float duracionHitbox = 0.2f;
 
     private Transform player;
@@ -15,6 +17,8 @@ public class EnemyAttack : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         GameObject objPlayer = GameObject.FindGameObjectWithTag("Player");
 
         if (objPlayer != null)
@@ -70,7 +74,12 @@ public class EnemyAttack : MonoBehaviour
 
         Debug.Log("Enemy ataca");
 
-        yield return new WaitForSeconds(0.15f);
+        if (animator != null)
+        {
+            animator.SetTrigger("attack");
+        }
+
+        yield return new WaitForSeconds(0.1f);
 
         if (hitbox != null)
         {

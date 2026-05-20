@@ -95,6 +95,11 @@ public class PersonajeMov : MonoBehaviour
             actual_speed = speed_char;
         }
 
+        if (powerUp != null && powerUp.transformado)
+        {
+            actual_speed = speed_char * 0.45f;
+        }
+
         if (!Input.GetKey(KeyCode.D) && !Input.GetKey(KeyCode.A))
         {
             corriendo = false;
@@ -165,6 +170,10 @@ public class PersonajeMov : MonoBehaviour
 
     public void Salto()
     {
+        if (powerUp != null && powerUp.transformado)
+        {
+            return;
+        }
         if (Input.GetKeyDown(KeyCode.Space) && !saltando && inFloor)
         {
             ypos_piso = transform.position.y;
@@ -278,6 +287,20 @@ public class PersonajeMov : MonoBehaviour
         {
             if (!saltando && inFloor)
             {
+                if (powerUp != null && powerUp.transformado)
+                {
+                    if (animator != null)
+                    {
+                        animator.SetTrigger("powerAttack");
+                    }
+
+                    Debug.Log("POWER ATTACK");
+
+                    StartCoroutine(ActivarHitbox(true, 0));
+
+                    return;
+                }
+
                 ActualizarCombo();
 
                 if (animator != null)
@@ -293,6 +316,14 @@ public class PersonajeMov : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
+            if (powerUp != null && powerUp.transformado)
+            {
+                Debug.Log("Ataque power up");
+
+                StartCoroutine(ActivarHitbox(true, 0));
+
+                return;
+            }
             if (saltando || Input.GetKey(KeyCode.Space))
             {
                 Debug.Log("ATAQUE FUERTE AEREO TIPO IRON MAN");
@@ -528,13 +559,20 @@ public class PersonajeMov : MonoBehaviour
         }
 
         if (animator != null)
+
         {
+
             animator.SetBool("isMoving", moviendo);
             animator.SetBool("isRunning", corriendo && !saltando);
 
        
             
             animator.SetBool("isSlam", golpeAereoFuerte);
+
+            if (powerUp != null)
+            {
+                animator.SetBool("isPowerUp", powerUp.transformado);
+            }
         }
     }
 

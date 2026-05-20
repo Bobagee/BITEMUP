@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     public Transform player;
-
+    public Animator animator;
     public bool activo;
 
     public float velocidad = 2.3f;
@@ -11,6 +11,8 @@ public class EnemyMovement : MonoBehaviour
 
     void Start()
     {
+        animator = GetComponent<Animator>();
+
         if (player == null)
         {
             GameObject objPlayer = GameObject.FindGameObjectWithTag("Player");
@@ -26,6 +28,11 @@ public class EnemyMovement : MonoBehaviour
     {
         if (!activo)
         {
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
+            }
+
             return;
         }
 
@@ -33,6 +40,11 @@ public class EnemyMovement : MonoBehaviour
 
         if (controller != null && controller.stuneado)
         {
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
+            }
+
             return;
         }
 
@@ -40,6 +52,11 @@ public class EnemyMovement : MonoBehaviour
 
         if (bloqueo != null && bloqueo.EstaBloqueando())
         {
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
+            }
+
             return;
         }
 
@@ -73,6 +90,11 @@ public class EnemyMovement : MonoBehaviour
             transform.position +=
                 (Vector3)(direccion * velocidad * Time.deltaTime);
 
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", true);
+            }
+
             if (direccion.x > 0)
             {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -81,6 +103,13 @@ public class EnemyMovement : MonoBehaviour
             if (direccion.x < 0)
             {
                 transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+        }
+        else
+        {
+            if (animator != null)
+            {
+                animator.SetBool("isMoving", false);
             }
         }
     }
