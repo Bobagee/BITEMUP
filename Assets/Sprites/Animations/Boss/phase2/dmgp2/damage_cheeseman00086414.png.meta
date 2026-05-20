@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 188a0dccb26fe7549a3371561697345f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6519345677825184986
+    second: damage_cheeseman00086414_0
+  - first:
+      213: -8221137762528242273
+    second: damage_cheeseman00086414_1
+  - first:
+      213: 2995941885777268696
+    second: damage_cheeseman00086414_2
+  - first:
+      213: -6887588201174766856
+    second: damage_cheeseman00086414_3
+  - first:
+      213: 9041585379346405987
+    second: damage_cheeseman00086414_4
+  - first:
+      213: 3331374205441101617
+    second: damage_cheeseman00086414_5
+  - first:
+      213: -7875911064883237330
+    second: damage_cheeseman00086414_6
+  - first:
+      213: -4304360800581157330
+    second: damage_cheeseman00086414_7
+  - first:
+      213: 9086228026861699452
+    second: damage_cheeseman00086414_8
+  - first:
+      213: 818328708523371925
+    second: damage_cheeseman00086414_9
+  - first:
+      213: -7648528188151241753
+    second: damage_cheeseman00086414_10
+  - first:
+      213: -8688924659039123423
+    second: damage_cheeseman00086414_11
+  - first:
+      213: 971660545565983216
+    second: damage_cheeseman00086414_12
+  - first:
+      213: 4527605646588479052
+    second: damage_cheeseman00086414_13
+  - first:
+      213: 5083473429409587560
+    second: damage_cheeseman00086414_14
+  - first:
+      213: -7565723973310565936
+    second: damage_cheeseman00086414_15
+  - first:
+      213: -170818817714826043
+    second: damage_cheeseman00086414_16
+  - first:
+      213: -6308778554211595450
+    second: damage_cheeseman00086414_17
+  - first:
+      213: -6254999928108401767
+    second: damage_cheeseman00086414_18
+  - first:
+      213: -4331562379292516970
+    second: damage_cheeseman00086414_19
+  - first:
+      213: 5801939213538677853
+    second: damage_cheeseman00086414_20
+  - first:
+      213: -4108236791757449645
+    second: damage_cheeseman00086414_21
+  - first:
+      213: -2623034191409531743
+    second: damage_cheeseman00086414_22
+  - first:
+      213: -656606318284759672
+    second: damage_cheeseman00086414_23
+  - first:
+      213: -6612980578063588495
+    second: damage_cheeseman00086414_24
+  - first:
+      213: 8680217280046523109
+    second: damage_cheeseman00086414_25
+  - first:
+      213: 8799420866072780732
+    second: damage_cheeseman00086414_26
+  - first:
+      213: -549357900126486400
+    second: damage_cheeseman00086414_27
+  - first:
+      213: 3632066792590215233
+    second: damage_cheeseman00086414_28
+  - first:
+      213: 5355722615182785303
+    second: damage_cheeseman00086414_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_0
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 931
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad49fbe5a5e597a50800000000000000
+      internalID: 6519345677825184986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 922
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9554fe23c6a8ed80800000000000000
+      internalID: -8221137762528242273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_2
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 936
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfc77d9549b39920800000000000000
+      internalID: 2995941885777268696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_3
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 919
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa6ec5e50f5a60a0800000000000000
+      internalID: -6887588201174766856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 930
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ade468ff92a7d70800000000000000
+      internalID: 9041585379346405987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_5
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 914
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f4731803b6b3e20800000000000000
+      internalID: 3331374205441101617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_6
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 915
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ee0176d9423b290800000000000000
+      internalID: -7875911064883237330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_7
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 920
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e7e3848a6d344c0800000000000000
+      internalID: -4304360800581157330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 22
+        width: 879
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c714a41ef34c81e70800000000000000
+      internalID: 9086228026861699452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_9
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 909
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d2a0def994b5b00800000000000000
+      internalID: 818328708523371925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_10
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 903
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3eea2f228fad590800000000000000
+      internalID: -7648528188151241753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_11
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 908
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12847d9fe0dba6780800000000000000
+      internalID: -8688924659039123423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_12
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 901
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f109bc3e180c7d00800000000000000
+      internalID: 971660545565983216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_13
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 907
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4685f7e85945de30800000000000000
+      internalID: 4527605646588479052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_14
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 376
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 861681196202c8640800000000000000
+      internalID: 5083473429409587560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_15
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 322
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1ba269126210790800000000000000
+      internalID: -7565723973310565936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_16
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 69
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4d729b03121adf0800000000000000
+      internalID: -170818817714826043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 65
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b8d9d8457b278a0800000000000000
+      internalID: -6308778554211595450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_18
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 69
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b310fa4b6c139a0800000000000000
+      internalID: -6254999928108401767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_19
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 64
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69dd2d337f233e3c0800000000000000
+      internalID: -4331562379292516970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_20
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54d16789f0a48050800000000000000
+      internalID: 5801939213538677853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_21
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 38
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3565b1e776c9cf6c0800000000000000
+      internalID: -4108236791757449645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_22
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 49
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4b453ec4c199bd0800000000000000
+      internalID: -2623034191409531743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_23
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 38
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d1c59480443e6f0800000000000000
+      internalID: -656606318284759672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_24
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 40
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17366f98339f934a0800000000000000
+      internalID: -6612980578063588495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_25
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 35
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2616e50a3567870800000000000000
+      internalID: 8680217280046523109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_26
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 33
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf9d6708a2dd1a70800000000000000
+      internalID: 8799420866072780732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_27
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080086486e94068f0800000000000000
+      internalID: -549357900126486400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_28
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 30
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14805dc1181b76230800000000000000
+      internalID: 3632066792590215233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: damage_cheeseman00086414_29
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 20
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bfe79b759535a40800000000000000
+      internalID: 5355722615182785303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      damage_cheeseman00086414_0: 6519345677825184986
+      damage_cheeseman00086414_1: -8221137762528242273
+      damage_cheeseman00086414_10: -7648528188151241753
+      damage_cheeseman00086414_11: -8688924659039123423
+      damage_cheeseman00086414_12: 971660545565983216
+      damage_cheeseman00086414_13: 4527605646588479052
+      damage_cheeseman00086414_14: 5083473429409587560
+      damage_cheeseman00086414_15: -7565723973310565936
+      damage_cheeseman00086414_16: -170818817714826043
+      damage_cheeseman00086414_17: -6308778554211595450
+      damage_cheeseman00086414_18: -6254999928108401767
+      damage_cheeseman00086414_19: -4331562379292516970
+      damage_cheeseman00086414_2: 2995941885777268696
+      damage_cheeseman00086414_20: 5801939213538677853
+      damage_cheeseman00086414_21: -4108236791757449645
+      damage_cheeseman00086414_22: -2623034191409531743
+      damage_cheeseman00086414_23: -656606318284759672
+      damage_cheeseman00086414_24: -6612980578063588495
+      damage_cheeseman00086414_25: 8680217280046523109
+      damage_cheeseman00086414_26: 8799420866072780732
+      damage_cheeseman00086414_27: -549357900126486400
+      damage_cheeseman00086414_28: 3632066792590215233
+      damage_cheeseman00086414_29: 5355722615182785303
+      damage_cheeseman00086414_3: -6887588201174766856
+      damage_cheeseman00086414_4: 9041585379346405987
+      damage_cheeseman00086414_5: 3331374205441101617
+      damage_cheeseman00086414_6: -7875911064883237330
+      damage_cheeseman00086414_7: -4304360800581157330
+      damage_cheeseman00086414_8: 9086228026861699452
+      damage_cheeseman00086414_9: 818328708523371925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

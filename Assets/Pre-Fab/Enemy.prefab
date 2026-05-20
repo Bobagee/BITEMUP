@@ -129,7 +129,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 23.271877, y: -2.5147986, z: 0}
-  m_LocalScale: {x: -0.25, y: 0.25, z: 0.125}
+  m_LocalScale: {x: -0.3, y: 0.3, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 154963747118298942}
@@ -207,9 +207,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyController
   animator: {fileID: 0}
+  vidaMaxima: 100
   vida: 20
   stuneado: 0
-  tiempoStun: 0.35
+  tiempoStun: 0.5
 --- !u!114 &2541528546849174291
 MonoBehaviour:
   m_ObjectHideFlags: 0

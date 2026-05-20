@@ -210,7 +210,7 @@ MonoBehaviour:
   vidaMaxima: 100
   vida: 100
   stuneado: 0
-  tiempoStun: 0.35
+  tiempoStun: 0.5
 --- !u!114 &2541528546849174291
 MonoBehaviour:
   m_ObjectHideFlags: 0
