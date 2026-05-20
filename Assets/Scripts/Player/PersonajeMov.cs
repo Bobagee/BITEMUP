@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PersonajeMov : MonoBehaviour
 {
+    public bool recoverySlam;
+    public float tiempoRecoverySlam = 0.32f;
 
     public Animator animator;
 
@@ -71,7 +73,14 @@ public class PersonajeMov : MonoBehaviour
 
     public void Movimiento()
     {
+
+
         if (playerHealth != null && playerHealth.stuneado)
+        {
+            return;
+        }
+
+        if (recoverySlam)
         {
             return;
         }
@@ -168,7 +177,7 @@ public class PersonajeMov : MonoBehaviour
             if (animator != null)
             {
                 animator.SetBool("isJumping", true);
-                animator.SetBool("isFalling", false);
+                
                 animator.SetBool("isSlam", false);
             }
         }
@@ -201,6 +210,14 @@ public class PersonajeMov : MonoBehaviour
                     fase_salto = 0;
                     golpeAereoFuerte = false;
                     air_attack = false;
+                    AplicarRecoverySlam();
+
+                    if (animator != null)
+                    {
+                        animator.SetBool("isSlam", false);
+                        animator.SetBool("isJumping", false);
+                        animator.SetBool("isFalling", false);
+                    }
                 }
 
                 return;
@@ -215,13 +232,14 @@ public class PersonajeMov : MonoBehaviour
                     if (gravity <= 0)
                     {
                         fase_salto = 2;
+
+                        if (animator != null)
+                        {
+                            animator.SetBool("isJumping", false);
+                            animator.SetBool("isFalling", true);
+                        }
                     }
 
-                    if (animator != null)
-                    {
-                        animator.SetBool("isJumping", false);
-                        animator.SetBool("isFalling", true);
-                    }
                     break;
 
                 case 2:
@@ -262,31 +280,50 @@ public class PersonajeMov : MonoBehaviour
             {
                 ActualizarCombo();
 
+                if (animator != null)
+                {
+                    animator.SetTrigger("attack1");
+                }
+
                 Debug.Log("Golpe combo " + comboActual);
 
                 StartCoroutine(ActivarHitbox(false, comboActual));
-            }
-            else
-            {
-                Debug.Log("No puedes hacer golpe normal en el aire");
             }
         }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            if (saltando)
+            if (saltando || Input.GetKey(KeyCode.Space))
             {
                 Debug.Log("ATAQUE FUERTE AEREO TIPO IRON MAN");
+
+                saltando = true;
+                inFloor = false;
 
                 golpeAereoFuerte = true;
                 air_attack = true;
                 fase_salto = 2;
                 gravity = 0;
 
+                if (animator != null)
+                {
+                    animator.ResetTrigger("attack1");
+
+                    animator.SetBool("isSlam", true);
+                    animator.SetBool("isJumping", false);
+                    animator.SetBool("isFalling", false);
+
+                    animator.Play("Slam", 0, 0f);
+                }
+
                 StartCoroutine(ActivarHitboxAereaFuerte());
             }
             else
             {
+                if (animator != null)
+                {
+                    animator.SetTrigger("strongAttack");
+                }
                 Debug.Log("ATAQUE FUERTE");
 
                 comboActual = 0;
@@ -347,34 +384,46 @@ public class PersonajeMov : MonoBehaviour
 
     public void Bloquear()
     {
+        Debug.Log("Entrando a Bloquear");
+
         if (powerUp != null && powerUp.transformado)
         {
-            if (bloqueo != null)
-            {
-                bloqueo.DesactivarBloqueo();
-            }
-
+            Debug.Log("No bloquea porque esta transformado");
             return;
         }
+
         if (playerHealth != null && playerHealth.stuneado)
         {
+            Debug.Log("No bloquea porque esta stuneado");
             return;
         }
+
         if (bloqueo == null)
         {
+            Debug.Log("No hay componente Bloqueo");
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKey(KeyCode.L))
         {
-            bloqueo.ActivarBloqueo();
-            Debug.Log("BLOQUEANDO");
-        }
+            Debug.Log("Presionando L");
 
-        if (Input.GetKeyUp(KeyCode.L))
+            bloqueo.ActivarBloqueo();
+
+            if (animator != null)
+            {
+                animator.SetBool("isBlocking", true);
+                Debug.Log("Animator isBlocking TRUE");
+            }
+        }
+        else
         {
             bloqueo.DesactivarBloqueo();
-            Debug.Log("DEJO DE BLOQUEAR");
+
+            if (animator != null)
+            {
+                animator.SetBool("isBlocking", false);
+            }
         }
     }
 
@@ -483,7 +532,7 @@ public class PersonajeMov : MonoBehaviour
             animator.SetBool("isMoving", moviendo);
             animator.SetBool("isRunning", corriendo && !saltando);
 
-            animator.SetBool("isJumping", saltando);
+       
             
             animator.SetBool("isSlam", golpeAereoFuerte);
         }
@@ -494,7 +543,18 @@ public class PersonajeMov : MonoBehaviour
         ground_attack = false;
         air_attack = false;
     }
+    public void AplicarRecoverySlam()
+    {
+        recoverySlam = true;
 
+        CancelInvoke("QuitarRecoverySlam");
+        Invoke("QuitarRecoverySlam", tiempoRecoverySlam);
+    }
+
+    void QuitarRecoverySlam()
+    {
+        recoverySlam = false;
+    }
     void Update()
     {
         DoubleTap();

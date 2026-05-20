@@ -31,9 +31,18 @@ public class PlayerHealth : MonoBehaviour
 
         vida -= dano;
 
+        Animator animator = GetComponent<Animator>();
+
+        if (animator != null)
+        {
+            animator.SetTrigger("hit");
+        }
+
         AplicarStun();
         AplicarInvulnerabilidad();
         AplicarKnockback();
+
+        Debug.Log("Vida Player: " + vida);
 
         if (vida <= 0)
         {
@@ -41,7 +50,7 @@ public class PlayerHealth : MonoBehaviour
 
             if (vidas > 0)
             {
-                vida = 10;
+                vida = 100;
                 Debug.Log("Perdiste una vida");
             }
             else
