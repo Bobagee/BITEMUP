@@ -1,7 +1,10 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class EnemyController : MonoBehaviour
 {
+    public bool esBoss;
+    public string escenaAlMorir;
+
     public Animator animator;
 
     public int vidaMaxima = 3;
@@ -55,6 +58,12 @@ public class EnemyController : MonoBehaviour
 
     void Morir()
     {
+        if (esBoss)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene(escenaAlMorir);
+            return;
+        }
+
         Destroy(gameObject);
     }
 }
